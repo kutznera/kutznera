@@ -9,8 +9,7 @@
  ![Tom, Everett and Emerson](fam.jpg)
 # Education
 * Bachelor of Social Work from New Mexico State University 
-  
-  ![NMSU](nmsu.png)
+
 # Military
 * 6 years in the New Mexico National Guard
     
