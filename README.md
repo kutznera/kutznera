@@ -26,7 +26,7 @@
 - 👯 Collaborate on state judicial system data cohesion and workflows.
 - 🤔 Turn PDF and word doc data into something I can manipulate programmatically.
 - Contribute to youth in foster care.
-- 
+  
 
 - # Other Stuff About Me 
 - 😄 Pronouns: she/her
