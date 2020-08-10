@@ -6,11 +6,11 @@
 - I am a Veteran trying to learn to Code!
 
 # Family
- ![Tom, Everett and Emerson](fam.jpg =50x)
+ ![Tom, Everett and Emerson](fam.jpg =50x50)
 # Education
 * Bachelor of Social Work from New Mexico State University 
   
-  ![NMSU](nmsu.png =50x)
+  ![NMSU](nmsu.png =50x50)
 # Military
 * 6 years in the New Mexico National Guard
     
