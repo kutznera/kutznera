@@ -1,0 +1,77 @@
+header {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+body {
+    background-color: plum;
+    background: font-family: 'raleway';
+}
+
+.container {
+    display: flex;
+    flex-wrap: center;
+}
+
+.bord {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+}
+
+.crossfd {
+    background-color: rgb(80, 12, 97);
+    display: inline-block;
+    background-size: cover;
+}
+
+.flexbox {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.box {
+    background-color: rgb(177, 59, 12);
+    padding: 1;
+    margin: 1;
+    -webkit-box-sizing: border-box;
+    display: inline-block;
+}
+
+
+/*nav bar*/
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Times New Roman';
+    font-size: 12px;
+}
+
+nav {
+    background: aqua;
+    padding: 0 10px;
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.submenu {
+    list-style-type: none;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item:not(.button) a:hover,
+.item a:hover::after {
+    color: #ccc;
+}
