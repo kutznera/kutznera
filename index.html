@@ -1,89 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-    <title>Portfolio Page</title>
-
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_X4kxBlA3c8C2Ul6NMJkFK");
+        })();
+        var templateParams = {
+            name: 'Ana',
+            notes: 'Check this out!'
+        };
+        emailjs.send("service_af1bc7t", "template_8sloo2r", templateParams, "user_X4kxBlA3c8C2Ul6NMJkFK");
+    </script>
 </head>
-<header style="text-align: center;">Ana Kutzner</header>
 
-<nav>
-    <ul class="menu">
-        <li class="item"><a href="#">Home</a>
-            </>
-            <li class="item"><a href="#">About Me</a></li>
-            <class class="item has-submenu">
-                <a tabindex="0">Programming Goals</a>
-                <ul class="submenu">
-                    <li class="subitem"><a href="#">Things I Like</a></li>
-                    <li class="subitem"><a href="#">What I'm Working On</a></li>
-                </ul>
-            </class>
-            <li class="item has-submenu">
-                <a tabindex="0">Interests</a>
-                <ul class="submenu">
-                    <li class="subitem"><a href="#">What I can do</a></li>
-                    <li class="subitem"><a href="#">What I am trying to do</a></li>
-                </ul>
-            </li>
-</nav>
-
-<div class="container"></div>
-<div class="bord crossfd">
-    <img src="EE2.jpg" width="100px" height="100px" alt="Happy Faces" />
-</div>
-<div class="bord crossfd">
-    <img src="fam.jpg" width="100px" height="100px" alt="ChildAbusePrevention" />
-</div>
-<div class="bord crossfd">
-    <img src="EE.jpg" width="100px" height="100px" alt="Jewelry" />
-</div>
-</div>
-
-<div class="flexbox"></div>
-<div class="box">
-    <h1 style="text-align: center; color: aqua" ;>About Me</h1>
-    <ol>
-        <ul>Mother of Two</ul>
-        <ul>Social Worker</ul>
-        <ul>Veteran</ul>
-        <ul>Amature Crafter</ul>
-    </ol>
-</div>
-
-<div class="box">
-    <h1 style="text-align: center; color: aqua" ;>Programming Goals</h1>
-    <ul>Learn Javascript DOM Manipulation</ul>
-    <ul>Become familiar with CSS responsiveness</ul>
-    <ul>Save form input into simple database</ul>
-</div>
-
-<div class="box">
-    <h1 style="text-align: center; color: aqua" ;>Things I Like</h1>
-    <ul>Spending time with my family</ul>
-    <ul>Anything with cheese</ul>
-    <ul>Doing my nails</ul>
-    <ul>Watching videos of people doing their nails</ul>
-    <ul>Going outside when there isn't a pandemic</ul>
-    <ul>Foxes</ul>
-</div>
-</p>
-
-<footer style="text-align: center;">
-    <div>
-        <a href="https://twitter.com/AnaKutzner" class="fa fa-twitter"></a>
-        <a href="https://github.com/kutznera" class="fa fa-github"></a>
-        <a href="www.linkedin.com/in/ana-kutzner" class="fa fa-linkedin"></a>
-
+<body>
+    <div class=" hero-image ">
+        <div class="hero-text ">
+            <h1>I am Ana!</h1>
+        </div>
     </div>
+
+    <nav>
+        <div><a href="#AboutMe ">About Me</a></div>
+        <div><a href="#IDo ">What I Do</a></div>
+        <div><a href="#ILike ">What I Like</a></div>
+        <div><a href="#ITry ">What I Am Trying To Do</a></div>
+    </nav>
+    <div class="kidpic">
+        <img src="8.jpg">
+        <img src="1.jpg">
+        <img src="4.jpg">
+        <img src="3.jpg">
+        <img src="2.jpg">
+        <img src="5.jpg">
+        <img src="9.jpg">
+        <img src="10.jpg">
+    </div>
+    <div id="box-container">
+        <h1>About Me</h1>
+        <div id="box">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, amet?</p>
+        </div>
+
+        <h1>Programming Goals</h1>
+        <div id="box">
+            <ul>Learn Javascript DOM Manipulation</ul>
+            <ul>Become familiar with CSS responsiveness</ul>
+            <ul>Save form input into simple database</ul>
+        </div>
+
+        <h1>Things I Like</h1>
+        <div id="box">
+            <ul>Spending time with my family</ul>
+            <ul>Anything with cheese</ul>
+            <ul>Doing my nails</ul>
+            <ul>Watching videos of people doing their nails</ul>
+            <ul>Going outside when there isn't a pandemic</ul>
+            <ul>Foxes</ul>
+        </div>
+    </div>
+    </div>
+</body>
+
+<h1 style="text-align: center;">Contact Me!</h1>
+<form id="contact-form" style="color: #382b2b;">
+    <input type="hidden" name="contact_number">
+    <label>Name</label>
+    <input type="text" name="user_name" style="font-size: 75px;">
+    <label>Email</label>
+    <input type="email" name="user_email" style="font-size: 75px;">
+    <label>Message</label>
+    <textarea name="message" rows="1" cols="75" style="font-size: 75px;"></textarea>
+    <input type="submit" value="send" style="font-size: 75px;">
+</form>
+</form>
+
+<footer>
+    <a href="https://twitter.com/AnaKutzner " class="fa fa-twitter "></a>
+    <a href="https://github.com/kutznera " class="fa fa-github "></a>
+    <a href="www.linkedin.com/in/ana-kutzner " class="fa fa-linkedin "></a>
 </footer>
 
 </html>
