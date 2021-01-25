@@ -6,7 +6,8 @@
 - I am a Veteran trying to learn to Code!
 
 # Family
- ![Tom, Everett and Emerson](fam.jpg)
+
+
 # Education
 * Bachelor of Social Work from New Mexico State University 
 
@@ -30,7 +31,7 @@
 - # Other Stuff About Me 
 - 😄 Pronouns: she/her
 - :art: I like Crafts
-- ⚡ Fun fact: I'll sip pickle juice straight out of the jar.
+- ⚡ Fun fact: I love pickles!
 - :fox_face: I :heart: Foxes
 - :nail_care: Doing my nails
 - :coffee: I like strong black coffee
